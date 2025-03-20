@@ -27,7 +27,7 @@ indent-width = 4
 
 [tool.ruff.lint]
 select = ["E", "W", "C", "F", "N", "D"]
-ignore = ["D203", "D212"]
+ignore = ["D103", "D100", "D212", "D203"]
 
 # Allow fix for all enabled rules (when `--fix`) is provided.
 fixable = ["ALL"]
